@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e908ce1a-a068-41ea-9ea4-4ffd460900df")
+	(paper "A2")
+	(title_block
+		(title "USB PCIE Expansion Card Board")
+		(date "2026-08-10")
+		(rev "0.1")
+	)
+	(lib_symbols)
+)
