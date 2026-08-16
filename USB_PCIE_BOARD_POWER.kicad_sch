@@ -870,7 +870,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
+			(property "Footprint" "0_Custom:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 				(at 29.21 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10530,6 +10530,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0_Custom:RSX501LAM20TR_D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "RSX501LAM20TR"
+				(at -7.112 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-128"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx501lam20tr-e.pdf"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode 20 V 5A Surface Mount PMDTM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "SOD-128"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "ROHM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part #" "RSX501LAM20TR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey Part #" "RSX501LAM20CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "LCSC Part #" "C253526"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "DIODE SCHOTTKY 20V 5A PMDTM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RSX501LAM20TR_D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "RSX501LAM20TR_D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_Custom:RT5762CHGH6F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10852,7 +11080,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(property "Footprint" "0_Custom:SO-8_3.9x4.9mm_P1.27mm"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11442,273 +11670,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Diode_Schottky_AKL:RB081L-20"
-			(body_styles demorgan)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RB081L-20"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/1645402.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMA Schottky diode, 20V, 5A, Alternate KiCAD Library"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky RB081L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RB081L-20_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RB081L-20_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RB081L-20_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RB081L-20_1_2"
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14514,7 +14475,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 127) (xy 294.64 127)
+			(xy 285.75 127) (xy 295.91 127)
 		)
 		(stroke
 			(width 0)
@@ -14621,6 +14582,16 @@
 			(type default)
 		)
 		(uuid "66720bcc-8b4f-446e-8181-fc0a44cdf0c8")
+	)
+	(wire
+		(pts
+			(xy 300.99 127) (xy 311.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ca3d80-dbbc-41df-9906-9fcbf25cf040")
 	)
 	(wire
 		(pts
@@ -15361,16 +15332,6 @@
 			(type default)
 		)
 		(uuid "9fce5279-1834-4e8c-ba11-206ea4909a5e")
-	)
-	(wire
-		(pts
-			(xy 311.15 127) (xy 302.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ffe38d7-8fd4-4313-a978-992c5cd81233")
 	)
 	(wire
 		(pts
@@ -17367,7 +17328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04e41523-9f18-46c8-8657-8a2098b52d75")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR83"
 			(at 450.85 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17427,7 +17388,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR083")
+					(reference "#PWR83")
 					(unit 1)
 				)
 			)
@@ -17751,7 +17712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "073e3691-2d00-4c6a-a59c-9c80eabc0bff")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR89"
 			(at 469.9 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -17811,7 +17772,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR089")
+					(reference "#PWR89")
 					(unit 1)
 				)
 			)
@@ -17998,7 +17959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a953cc6-b9f0-46b1-bdb7-bf3c5e00da58")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR122"
 			(at 215.9 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18058,7 +18019,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0122")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -18075,7 +18036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c6c7ac5-506f-4a0d-8ca2-583f2e18aa74")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR88"
 			(at 450.85 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -18135,7 +18096,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR088")
+					(reference "#PWR88")
 					(unit 1)
 				)
 			)
@@ -18435,7 +18396,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e636b55-b73e-4d3f-bafe-496cf1844cc5")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR74"
 			(at 501.65 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18495,7 +18456,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR074")
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
@@ -18660,7 +18621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "106c7dc3-431e-4d9b-a194-a2c2f4bf3e78")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR107"
 			(at 533.4 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18720,7 +18681,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0107")
+					(reference "#PWR107")
 					(unit 1)
 				)
 			)
@@ -18737,7 +18698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1238f22f-fc99-439d-a2ab-476b7de69316")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR57"
 			(at 232.41 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -18797,7 +18758,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR057")
+					(reference "#PWR57")
 					(unit 1)
 				)
 			)
@@ -18814,7 +18775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "127468e2-b165-46d4-9906-5a184f949104")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR48"
 			(at 311.15 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18874,7 +18835,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR048")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -19039,7 +19000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18ecfcfe-cbcf-4302-b65f-b71de60babc0")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 469.9 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19099,7 +19060,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -19116,7 +19077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "197989c9-39b0-4663-86b8-d195f2cb372d")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR91"
 			(at 469.9 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -19176,7 +19137,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR091")
+					(reference "#PWR91")
 					(unit 1)
 				)
 			)
@@ -19193,7 +19154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "199b8898-99ae-4140-8f72-3a97e7baa6cb")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR109"
 			(at 533.4 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -19253,7 +19214,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0109")
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -19747,7 +19708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a07794-87c7-4a9b-b603-250e99653169")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR81"
 			(at 501.65 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -19807,7 +19768,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR081")
+					(reference "#PWR81")
 					(unit 1)
 				)
 			)
@@ -20276,7 +20237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ab83504-b178-4a9e-8843-53774f5a63c6")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR110"
 			(at 533.4 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -20336,7 +20297,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0110")
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -20681,7 +20642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e43405e-0d1f-4585-8726-09181347d152")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR51"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -20741,7 +20702,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR051")
+					(reference "#PWR51")
 					(unit 1)
 				)
 			)
@@ -20758,7 +20719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e9ad113-0cf7-4549-823a-74d94823a6ea")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR111"
 			(at 533.4 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -20818,7 +20779,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0111")
+					(reference "#PWR111")
 					(unit 1)
 				)
 			)
@@ -20858,7 +20819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
+		(property "Footprint" "0_Custom:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 499.11 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -20980,8 +20941,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:RB081L-20")
-		(at 298.45 127 0)
+		(lib_id "0_Custom:RSX501LAM20TR_D")
+		(at 298.45 127 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20989,10 +20950,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "300390ea-70d5-4194-9e06-dfe3fc66bb9e")
 		(property "Reference" "D3"
-			(at 298.7675 120.65 0)
+			(at 298.45 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21001,8 +20961,8 @@
 				)
 			)
 		)
-		(property "Value" "RB081L-20"
-			(at 298.7675 123.19 0)
+		(property "Value" "RSX501LAM20TR"
+			(at 298.704 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21011,7 +20971,29 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-128"
+			(at 298.45 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/diode/schottky_barrier/rsx501lam20tr-e.pdf"
+			(at 298.45 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode 20 V 5A Surface Mount PMDTM"
 			(at 298.45 127 0)
 			(hide yes)
 			(show_name no)
@@ -21022,7 +21004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/1645402.pdf"
+		(property "Package" "SOD-128"
 			(at 298.45 127 0)
 			(hide yes)
 			(show_name no)
@@ -21031,9 +21013,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "SMA Schottky diode, 20V, 5A, Alternate KiCAD Library"
+		(property "Manufacturer" "ROHM"
 			(at 298.45 127 0)
 			(hide yes)
 			(show_name no)
@@ -21042,6 +21025,43 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part #" "RSX501LAM20TR"
+			(at 298.45 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey Part #" "RSX501LAM20CT-ND"
+			(at 298.45 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC Part #" "C253526"
+			(at 298.45 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -21070,7 +21090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33b4f8b6-1300-4785-85aa-486e64b43ee9")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR80"
 			(at 520.7 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -21130,7 +21150,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR080")
+					(reference "#PWR80")
 					(unit 1)
 				)
 			)
@@ -21147,7 +21167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33e54951-7962-479d-9149-03a07af142a6")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR96"
 			(at 501.65 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -21207,7 +21227,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR096")
+					(reference "#PWR96")
 					(unit 1)
 				)
 			)
@@ -21224,7 +21244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34ba407e-c278-4fa9-bcbd-7a2fafd4dfe8")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 241.3 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -21284,7 +21304,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -21301,7 +21321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36044b7f-985a-4519-93dc-2e66508f23d0")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR99"
 			(at 520.7 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -21361,7 +21381,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR099")
+					(reference "#PWR99")
 					(unit 1)
 				)
 			)
@@ -21674,7 +21694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a52fbd4-1957-4b67-a31a-e166cfdf0544")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR55"
 			(at 298.45 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -21734,7 +21754,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR055")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -21751,7 +21771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a6c0630-0019-4ebe-b1e4-725e4a1ce88c")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR50"
 			(at 165.1 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21811,7 +21831,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR050")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -21998,7 +22018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d25bca5-7405-4729-bfb5-96faec26f46c")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR108"
 			(at 533.4 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -22058,7 +22078,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0108")
+					(reference "#PWR108")
 					(unit 1)
 				)
 			)
@@ -22396,7 +22416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41b64b2c-b137-4541-93c7-5f1d2c45711f")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR87"
 			(at 520.7 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -22456,7 +22476,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR087")
+					(reference "#PWR87")
 					(unit 1)
 				)
 			)
@@ -22803,7 +22823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ac29da4-eb97-4f49-b214-63a2d90c7305")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR117"
 			(at 330.2 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -22863,7 +22883,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0117")
+					(reference "#PWR117")
 					(unit 1)
 				)
 			)
@@ -23491,7 +23511,7 @@
 				)
 			)
 		)
-		(property "Value" "D0.5mm"
+		(property "Value" "TestPoint"
 			(at 334.772 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23557,7 +23577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52be3644-f65f-477e-a429-45729147cbb9")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 241.3 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -23617,7 +23637,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR063")
+					(reference "#PWR63")
 					(unit 1)
 				)
 			)
@@ -23634,7 +23654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56da3b9e-b198-4508-8eff-53e0f4580555")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR73"
 			(at 501.65 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -23694,7 +23714,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -23712,7 +23732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5766d2e8-d2dd-4214-a2b5-f0207a1c3e41")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 368.3 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -23772,7 +23792,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR068")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -24279,7 +24299,7 @@
 				)
 			)
 		)
-		(property "Value" "D0.5mm"
+		(property "Value" "TestPoint"
 			(at 334.772 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24345,7 +24365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f1892dd-15db-4460-a66a-1ad7eae83eaa")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR85"
 			(at 501.65 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -24405,7 +24425,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
@@ -24422,7 +24442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fda2e80-3b31-4562-b293-e5497327b602")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR82"
 			(at 450.85 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -24482,7 +24502,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR082")
+					(reference "#PWR82")
 					(unit 1)
 				)
 			)
@@ -24804,7 +24824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6312194c-5221-475f-9b59-0ca20eea0827")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR84"
 			(at 450.85 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -24864,7 +24884,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR084")
+					(reference "#PWR84")
 					(unit 1)
 				)
 			)
@@ -25188,7 +25208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6521f668-6da6-4b95-80d1-8cd1d857f55b")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR116"
 			(at 368.3 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -25248,7 +25268,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0116")
+					(reference "#PWR116")
 					(unit 1)
 				)
 			)
@@ -25265,7 +25285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6550a55c-8236-4cdb-ae4a-918da449869d")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR115"
 			(at 330.2 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -25325,7 +25345,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0115")
+					(reference "#PWR115")
 					(unit 1)
 				)
 			)
@@ -25342,7 +25362,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65b73263-ecdf-45e5-ad96-aef065534896")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR59"
 			(at 120.65 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -25402,7 +25422,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR059")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -25429,7 +25449,7 @@
 				)
 			)
 		)
-		(property "Value" "D0.5mm"
+		(property "Value" "TestPoint"
 			(at 355.6 277.622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25495,7 +25515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66849c06-bc8c-46a8-9d05-a147ea4a585b")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR98"
 			(at 520.7 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -25555,7 +25575,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR098")
+					(reference "#PWR98")
 					(unit 1)
 				)
 			)
@@ -25572,7 +25592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67b64678-3bc8-43f2-a6e8-1ea4edbde634")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR47"
 			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -25632,7 +25652,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR047")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -25963,7 +25983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "700ef58a-6a25-4170-9f34-cfa1af127a88")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR79"
 			(at 520.7 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -26023,7 +26043,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR079")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -26040,7 +26060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "705b4608-9790-4b67-a85f-03e64811aa66")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR113"
 			(at 533.4 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -26100,7 +26120,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0113")
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -26117,7 +26137,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f624e2-ecca-4554-8fb0-1a0b909c3f1e")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR94"
 			(at 501.65 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -26177,7 +26197,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR094")
+					(reference "#PWR94")
 					(unit 1)
 				)
 			)
@@ -26194,7 +26214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72910dcc-790d-4364-8687-ecfb16299049")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR64"
 			(at 279.4 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -26254,7 +26274,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR064")
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
@@ -26271,7 +26291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7427450c-79ea-49da-a423-fc4883f1bc0e")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR56"
 			(at 203.2 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -26331,7 +26351,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR056")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -26507,7 +26527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76371ab7-d005-4889-a40f-f9eb78e2aca4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR92"
 			(at 469.9 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -26567,7 +26587,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR092")
+					(reference "#PWR92")
 					(unit 1)
 				)
 			)
@@ -26584,7 +26604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c2473e-572a-4827-b708-56a5cd2fdb83")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 501.65 289.56 0)
 			(hide yes)
 			(show_name no)
@@ -26644,7 +26664,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -27301,7 +27321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e4c34a8-2ffc-45ff-b826-8abecaa54a8e")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 330.2 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -27361,7 +27381,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR066")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -27559,7 +27579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "0_Custom:SO-8_3.9x4.9mm_P1.27mm"
 			(at 269.24 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -27721,7 +27741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840696e6-6812-4e6a-9bda-01ee43638ff0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR69"
 			(at 349.25 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -27781,7 +27801,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR069")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -27798,7 +27818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86efb4af-2111-4325-ba46-cb44f92df262")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR123"
 			(at 215.9 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -27858,7 +27878,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0123")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -28330,7 +28350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ab73974-5ec3-413e-bc05-9902a5e3190f")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR100"
 			(at 520.7 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28390,7 +28410,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0100")
+					(reference "#PWR100")
 					(unit 1)
 				)
 			)
@@ -28407,7 +28427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b17877f-5f51-4bec-9d7d-a92ffd8a2c1e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR52"
 			(at 107.95 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -28467,7 +28487,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR052")
+					(reference "#PWR52")
 					(unit 1)
 				)
 			)
@@ -28494,7 +28514,7 @@
 				)
 			)
 		)
-		(property "Value" "D0.5mm"
+		(property "Value" "TestPoint"
 			(at 342.9 277.622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28725,7 +28745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dfeb194-c9a7-470a-8bb3-fcd81ec307d6")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 501.65 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -28785,7 +28805,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR072")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -28802,7 +28822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "909556a0-3948-4be2-87b3-1c0a3f9744c2")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR114"
 			(at 533.4 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -28862,7 +28882,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0114")
+					(reference "#PWR114")
 					(unit 1)
 				)
 			)
@@ -28879,7 +28899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "909fa6c5-d925-4976-ab1d-58ae5b4fd4a4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR58"
 			(at 317.5 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -28939,7 +28959,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR058")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
@@ -30197,7 +30217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa33ebd7-df8c-4039-8fd3-decb29c83731")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR53"
 			(at 279.4 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30257,7 +30277,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR053")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -30274,7 +30294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abe81d49-b1f9-4748-9ddb-548b4aa2f34d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 228.6 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -30334,7 +30354,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -30351,7 +30371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac06b75b-e54b-486b-97ef-8523a30f1c63")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR77"
 			(at 469.9 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30411,7 +30431,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR077")
+					(reference "#PWR77")
 					(unit 1)
 				)
 			)
@@ -30428,7 +30448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af52dbcc-c511-4269-9059-eeae5899a870")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR86"
 			(at 520.7 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -30488,7 +30508,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR086")
+					(reference "#PWR86")
 					(unit 1)
 				)
 			)
@@ -30949,7 +30969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8b37747-c78e-447b-9de9-5353573cb89d")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR97"
 			(at 520.7 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -31009,7 +31029,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR097")
+					(reference "#PWR97")
 					(unit 1)
 				)
 			)
@@ -31026,7 +31046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9c7154a-2866-445e-a52d-9b35ad7a8653")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR54"
 			(at 266.7 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -31086,7 +31106,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR054")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -31449,7 +31469,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c392e906-365b-43da-b82d-8fa4c4191628")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR78"
 			(at 469.9 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -31509,7 +31529,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR078")
+					(reference "#PWR78")
 					(unit 1)
 				)
 			)
@@ -32322,7 +32342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce06d66b-c694-4f34-b8f8-f426632dd748")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR118"
 			(at 361.95 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -32382,7 +32402,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0118")
+					(reference "#PWR118")
 					(unit 1)
 				)
 			)
@@ -32422,7 +32442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
+		(property "Footprint" "0_Custom:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 499.11 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -32719,7 +32739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd047783-1e16-4411-a0ac-f170cf9a238b")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR121"
 			(at 228.6 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -32779,7 +32799,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0121")
+					(reference "#PWR121")
 					(unit 1)
 				)
 			)
@@ -33137,7 +33157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
+		(property "Footprint" "0_Custom:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 499.11 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -33433,7 +33453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e180e132-d63e-4a35-87cc-88fdb5efce8b")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR119"
 			(at 361.95 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -33493,7 +33513,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0119")
+					(reference "#PWR119")
 					(unit 1)
 				)
 			)
@@ -33822,7 +33842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47953cc-432d-4073-8f49-aeadf1202e0c")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 279.4 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -33882,7 +33902,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -34201,7 +34221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6f6d72f-1b48-4c60-b894-787ff921e495")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR60"
 			(at 203.2 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -34261,7 +34281,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR060")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -34278,7 +34298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e70d192b-814f-40eb-b38d-65e5cb8f90a0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR49"
 			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -34338,7 +34358,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR049")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -34503,7 +34523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb006c16-a53f-4242-83c5-4ddeba1eef6e")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR76"
 			(at 469.9 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -34563,7 +34583,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR076")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
@@ -34603,7 +34623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
+		(property "Footprint" "0_Custom:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 499.11 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -34735,7 +34755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee0eace8-f90f-4ecf-baf6-b9fe912b53be")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 254 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -34795,7 +34815,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -34951,7 +34971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f42e57b0-b914-4ab4-a214-a0200feef589")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR90"
 			(at 469.9 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -35011,7 +35031,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR090")
+					(reference "#PWR90")
 					(unit 1)
 				)
 			)
@@ -35341,7 +35361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa519fe4-1f0b-492f-85a5-b23ef82658fb")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR65"
 			(at 304.8 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -35401,7 +35421,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR065")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -35418,7 +35438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa56dae0-1fd3-4599-9df2-022814ca3edf")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR112"
 			(at 533.4 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -35478,7 +35498,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0112")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -35653,7 +35673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb7d4af0-a5e7-4a9b-96b6-451270dc5ac8")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR120"
 			(at 228.6 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -35713,7 +35733,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR0120")
+					(reference "#PWR120")
 					(unit 1)
 				)
 			)
@@ -35730,7 +35750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc4135a2-e3e1-437a-8d97-a3bf46e9eb8d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR71"
 			(at 336.55 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -35790,7 +35810,7 @@
 		(instances
 			(project "USB_PCIE_Board"
 				(path "/0b6a8cbe-8bf6-4e77-b3bd-c1d3e39e0e4a/c5e81aeb-0b7d-42d8-9a6d-2ac4f98b6681"
-					(reference "#PWR071")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
