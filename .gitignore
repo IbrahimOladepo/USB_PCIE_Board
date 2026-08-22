@@ -1,6 +1,6 @@
 fp-info-cache
 *-backups/
-.history/*
+.history/
 Archive/
 *.lck
 _restore_backup_2026-08-18T08-38-13-635/*
