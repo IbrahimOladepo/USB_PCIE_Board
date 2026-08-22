@@ -1,0 +1,2741 @@
+{
+  "board": "C:\\Users\\olade\\OneDrive\\Ibrahim_Files\\Education\\Embedded_Systems\\KiCAD\\Projects\\USB_PCIE_Board\\USB_PCIE_Board.kicad_pcb",
+  "timestamp": "2026-08-22T18:08:37",
+  "total_violations": 272,
+  "violation_counts": {
+    "via_dangling": 199,
+    "hole_clearance": 50,
+    "malformed_courtyard": 8,
+    "silk_edge_clearance": 8,
+    "lib_footprint_mismatch": 5,
+    "silk_overlap": 1,
+    "copper_sliver": 1
+  },
+  "severity_counts": {
+    "error": 257,
+    "warning": 15,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.9,
+        "y": 81.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 131.9,
+        "y": 41.65,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.1,
+        "y": 80.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.5,
+        "y": 77.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 122.0,
+        "y": 41.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.2,
+        "y": 85.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.05,
+        "y": 63.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.4,
+        "y": 95.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 132.1,
+        "y": 102.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 64.95,
+        "y": 85.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.8,
+        "y": 129.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 115.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.1,
+        "y": 39.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 97.6,
+        "y": 87.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 107.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.8,
+        "y": 71.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 102.0,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 99.8,
+        "y": 91.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.1,
+        "y": 78.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 111.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 88.1,
+        "y": 39.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 121.9,
+        "y": 129.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.8,
+        "y": 41.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 123.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 120.0,
+        "y": 41.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 109.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 102.0,
+        "y": 95.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 125.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 104.1,
+        "y": 95.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 117.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.6,
+        "y": 88.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 64.95,
+        "y": 89.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 115.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.6,
+        "y": 95.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 84.1,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 94.5,
+        "y": 55.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.7,
+        "y": 50.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 127.3,
+        "y": 127.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.2,
+        "y": 111.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 79.0,
+        "y": 134.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 127.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 82.1,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.8,
+        "y": 134.05,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.1,
+        "y": 69.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 78.1,
+        "y": 39.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 64.95,
+        "y": 87.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 131.9,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 64.95,
+        "y": 113.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 97.6,
+        "y": 93.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 123.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 109.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 96.8,
+        "y": 57.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.9,
+        "y": 79.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.55,
+        "y": 69.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.45,
+        "y": 116.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 70.9,
+        "y": 134.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.85,
+        "y": 84.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.8,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 129.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.75,
+        "y": 65.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 102.0,
+        "y": 93.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.35,
+        "y": 87.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.3,
+        "y": 134.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 119.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 124.0,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 111.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 117.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.85,
+        "y": 55.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 127.9,
+        "y": 39.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.35,
+        "y": 89.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.0,
+        "y": 93.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 127.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 99.75,
+        "y": 89.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.2,
+        "y": 109.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 111.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.85,
+        "y": 86.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.1,
+        "y": 76.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.25,
+        "y": 66.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 123.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.4,
+        "y": 93.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 52.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 86.0,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 123.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 122.0,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 142.35,
+        "y": 69.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.8,
+        "y": 67.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.25,
+        "y": 81.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 107.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 115.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.5,
+        "y": 41.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.25,
+        "y": 62.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.5,
+        "y": 41.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.45,
+        "y": 73.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 100.0,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 124.15,
+        "y": 127.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 103.9,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 79.2,
+        "y": 55.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 115.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 117.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.5,
+        "y": 122.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.85,
+        "y": 73.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 113.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.15,
+        "y": 92.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 127.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.8,
+        "y": 39.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.2,
+        "y": 88.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 80.1,
+        "y": 39.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.05,
+        "y": 74.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 124.0,
+        "y": 41.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.45,
+        "y": 118.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 87.8,
+        "y": 57.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.4,
+        "y": 91.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.2,
+        "y": 89.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.5,
+        "y": 39.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.6,
+        "y": 90.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 52.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.45,
+        "y": 71.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 119.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 107.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 85.55,
+        "y": 55.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 121.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.4,
+        "y": 69.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 121.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 129.9,
+        "y": 41.65,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 127.3,
+        "y": 129.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 125.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.6,
+        "y": 84.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 109.8,
+        "y": 125.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 107.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.8,
+        "y": 127.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 129.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.05,
+        "y": 134.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.0,
+        "y": 62.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 117.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 56.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 129.9,
+        "y": 39.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 124.15,
+        "y": 129.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.9,
+        "y": 77.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 67.3,
+        "y": 132.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.7,
+        "y": 54.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 104.1,
+        "y": 93.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 115.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 132.1,
+        "y": 100.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.1,
+        "y": 101.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.45,
+        "y": 120.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 132.1,
+        "y": 98.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 113.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.0,
+        "y": 66.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 107.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.4,
+        "y": 114.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 111.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 109.8,
+        "y": 129.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 123.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 118.1,
+        "y": 39.35,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 117.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 65.05,
+        "y": 132.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 121.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 121.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 107.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.6,
+        "y": 93.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 113.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.65,
+        "y": 77.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 119.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.05,
+        "y": 69.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 129.55,
+        "y": 129.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 142.25,
+        "y": 61.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 133.55,
+        "y": 115.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.8,
+        "y": 127.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.05,
+        "y": 67.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 111.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 112.2,
+        "y": 90.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 102.0,
+        "y": 91.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 70.0,
+        "y": 39.65,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 93.5,
+        "y": 70.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.55,
+        "y": 67.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 95.25,
+        "y": 79.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 107.8,
+        "y": 125.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 140.05,
+        "y": 65.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 64.95,
+        "y": 109.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 142.3,
+        "y": 63.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 75.9,
+        "y": 39.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 121.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 138.95,
+        "y": 109.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 123.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 96.0,
+        "y": 39.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 128.4,
+        "y": 103.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 129.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 76.05,
+        "y": 97.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.55,
+        "y": 71.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 93.5,
+        "y": 72.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 113.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 135.8,
+        "y": 121.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 103.65,
+        "y": 57.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 144.75,
+        "y": 117.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 146.95,
+        "y": 54.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 147.0,
+        "y": 119.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 93.25,
+        "y": 81.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 141.2,
+        "y": 109.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "via_dangling",
+      "severity": "error",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 105.65,
+        "y": 81.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1908 mm)",
+      "location": {
+        "x": 92.224899,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1896 mm)",
+      "location": {
+        "x": 89.424899,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1905 mm)",
+      "location": {
+        "x": 90.624899,
+        "y": 110.275099,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1897 mm)",
+      "location": {
+        "x": 89.79775,
+        "y": 101.650047,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1916 mm)",
+      "location": {
+        "x": 86.2498,
+        "y": 106.699998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1869 mm)",
+      "location": {
+        "x": 89.824901,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1936 mm)",
+      "location": {
+        "x": 92.197749,
+        "y": 101.650048,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1945 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 106.699998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1894 mm)",
+      "location": {
+        "x": 88.624901,
+        "y": 110.9228,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1916 mm)",
+      "location": {
+        "x": 88.624901,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1936 mm)",
+      "location": {
+        "x": 91.024901,
+        "y": 110.9228,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1936 mm)",
+      "location": {
+        "x": 87.397751,
+        "y": 101.650048,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1905 mm)",
+      "location": {
+        "x": 91.824899,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1883 mm)",
+      "location": {
+        "x": 86.2498,
+        "y": 107.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1865 mm)",
+      "location": {
+        "x": 88.624901,
+        "y": 110.275099,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1912 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 107.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1907 mm)",
+      "location": {
+        "x": 91.024901,
+        "y": 110.275099,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1934 mm)",
+      "location": {
+        "x": 91.852049,
+        "y": 101.650048,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1944 mm)",
+      "location": {
+        "x": 90.624899,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1972 mm)",
+      "location": {
+        "x": 90.65205,
+        "y": 101.650047,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1888 mm)",
+      "location": {
+        "x": 85.574949,
+        "y": 104.67285,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1976 mm)",
+      "location": {
+        "x": 89.424899,
+        "y": 110.9228,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1948 mm)",
+      "location": {
+        "x": 89.424899,
+        "y": 110.275099,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1984 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 109.099998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1936 mm)",
+      "location": {
+        "x": 90.99775,
+        "y": 101.650047,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1954 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 105.499998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1908 mm)",
+      "location": {
+        "x": 89.824901,
+        "y": 110.275099,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1961 mm)",
+      "location": {
+        "x": 93.024899,
+        "y": 111.024899,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1936 mm)",
+      "location": {
+        "x": 89.824901,
+        "y": 110.9228,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1934 mm)",
+      "location": {
+        "x": 88.224901,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1983 mm)",
+      "location": {
+        "x": 85.574948,
+        "y": 105.527149,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1945 mm)",
+      "location": {
+        "x": 88.597751,
+        "y": 101.650048,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1859 mm)",
+      "location": {
+        "x": 85.574949,
+        "y": 108.272848,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1905 mm)",
+      "location": {
+        "x": 93.024899,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1935 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 103.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1906 mm)",
+      "location": {
+        "x": 86.2498,
+        "y": 103.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1934 mm)",
+      "location": {
+        "x": 93.052049,
+        "y": 101.650048,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1906 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 104.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1925 mm)",
+      "location": {
+        "x": 89.45205,
+        "y": 101.650047,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1930 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 107.899998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1896 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 105.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1906 mm)",
+      "location": {
+        "x": 88.224901,
+        "y": 102.324899,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1935 mm)",
+      "location": {
+        "x": 85.574949,
+        "y": 104.32715,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1925 mm)",
+      "location": {
+        "x": 85.574948,
+        "y": 105.872849,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1958 mm)",
+      "location": {
+        "x": 85.574949,
+        "y": 107.927148,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1907 mm)",
+      "location": {
+        "x": 91.024901,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1934 mm)",
+      "location": {
+        "x": 90.624899,
+        "y": 110.9228,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1907 mm)",
+      "location": {
+        "x": 87.424901,
+        "y": 101.677198,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1829 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 108.299998,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "Hole clearance violation (board setup constraints hole clearance 0.2000 mm; actual 0.1859 mm)",
+      "location": {
+        "x": 85.602099,
+        "y": 104.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 52.499999,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 52.499999,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 75.766665,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 75.766665,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 122.499999,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 122.499999,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 99.033332,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "malformed_courtyard",
+      "severity": "error",
+      "message": "Footprint has malformed courtyard (not a closed shape)",
+      "location": {
+        "x": 58.177776,
+        "y": 99.033332,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 51.449666,
+        "y": 145.261791,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 56.025,
+        "y": 140.525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 56.025,
+        "y": 42.15,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 145.25,
+        "y": 132.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'BUS_PCIexpress_x1' does not match copy in library 'Connector_PCBEdge'",
+      "location": {
+        "x": 97.1,
+        "y": 146.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_mismatch",
+      "severity": "warning",
+      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
+      "location": {
+        "x": 145.225,
+        "y": 65.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 86.8249,
+        "y": 111.341899,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_sliver",
+      "severity": "warning",
+      "message": "Copper sliver (F.Cu)",
+      "location": {
+        "x": 0,
+        "y": 0,
+        "unit": "mm"
+      }
+    }
+  ]
+}
