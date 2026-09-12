@@ -27,11 +27,29 @@ supply through an on-board regulation chain.
 - 4-layer, ~98.6 x 111.9mm
 - ~175 components, ~126 nets
 
+| Top | Bottom |
+|---|---|
+| ![Top isometric render](3D/USB_PCIE_Board_Blender_Render_04.png) | ![Bottom isometric render](3D/USB_PCIE_Board_Blender_Render_05.png) |
+
+## Component sorting tray
+
+A 150 x 150 x 10mm box-and-lid pair for sorting the BOM by hand before assembly, one
+compartment per distinct part/value. Generated with the
+[box-stl-generator](https://javisperez.github.io/box-stl-generator/) tool; STL files
+are in `3D/Assembly/`. Pair it with `Doc/Component_Tray_Layout.pdf` for a printable,
+to-scale cut-out label plus a lookup table mapping each compartment to its BOM entry.
+
+| Box | Lid |
+|---|---|
+| ![Box render](3D/Assembly/Box_Render.png) | ![Lid render](3D/Assembly/Lid_Render.png) |
+
 ## Repository layout
 
 - `USB_PCIE_Board.kicad_pro` / `.kicad_pcb` / `.kicad_sch` — main project, board, and schematic
 - `USB_PCIE_BOARD_POWER.kicad_sch` — power supply schematic sheet
-- `Doc/` — documentation, including a PCB design review checklist
+- `Doc/` — documentation, including a PCB design review checklist and the component tray layout
+- `3D/` — Blender renders and STEP/pcb3d exports of the board; `3D/Assembly/` has the
+  sorting tray's STL files and renders
 - `production/` — generated fabrication outputs (gerbers, BOM, position files)
 
 ## Status
