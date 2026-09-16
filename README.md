@@ -43,11 +43,18 @@ to-scale cut-out label plus a lookup table mapping each compartment to its BOM e
 |---|---|
 | ![Box render](3D/Assembly/Box_Render.png) | ![Lid render](3D/Assembly/Lid_Render.png) |
 
+## OS / driver setup
+
+U1 needs a firmware blob to bring the xHCI controller online on Linux (not shipped in
+`linux-firmware` due to Renesas licensing), and a driver install on Windows. See
+[`Doc/uPD720201_Firmware_Setup.md`](Doc/uPD720201_Firmware_Setup.md) for both.
+
 ## Repository layout
 
 - `USB_PCIE_Board.kicad_pro` / `.kicad_pcb` / `.kicad_sch` — main project, board, and schematic
 - `USB_PCIE_BOARD_POWER.kicad_sch` — power supply schematic sheet
-- `Doc/` — documentation, including a PCB design review checklist and the component tray layout
+- `Doc/` — documentation, including a PCB design review checklist, OS/driver setup
+  notes, and the component tray layout
 - `3D/` — Blender renders and STEP/pcb3d exports of the board; `3D/Assembly/` has the
   sorting tray's STL files and renders
 - `production/` — generated fabrication outputs (gerbers, BOM, position files)
