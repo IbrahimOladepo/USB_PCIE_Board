@@ -31,6 +31,29 @@ supply through an on-board regulation chain.
 |---|---|
 | ![Top isometric render](3D/USB_PCIE_Board_Blender_Render_04.png) | ![Bottom isometric render](3D/USB_PCIE_Board_Blender_Render_05.png) |
 
+## First assembled board (v0.1)
+
+| Top | Bottom |
+|---|---|
+| ![Top view, assembled v0.1](2D/Photos/20260916_135817.jpg) | ![Bottom view, assembled v0.1](2D/Photos/20260916_135833.jpg) |
+
+The first populated board brought up all rails cleanly except the 1.05V core rail
+(U5), which came up equal to its input voltage instead of regulating. Bring-up debug
+(solder-bridge check, continuity check, a U5 swap that didn't help) eventually traced
+it to the feedback divider: **R25 had been sourced as a 133Ω part instead of the
+133kΩ the design called for**, a unit typo (Ω vs kΩ) that slipped through to the BOM
+and the order. With R24 (100kΩ, correct) on top and a 133Ω part on the bottom, the
+feedback node was pulled to nearly 0V, which made the regulator's control loop drive
+close to 100% duty cycle — output tracking input, exactly as observed.
+
+The through-hole resistors visible bodged onto the board in the top-view photo
+(bottom right, near L3/D14) are the quick fix: two resistor values already in this
+board's own BOM, stacked in series in place of the bad R25, to get back to
+~134.8kΩ (≈1.05V) without waiting on a new part order. See
+[`Doc/PCB_Design_Review_Checklist.md`](Doc/PCB_Design_Review_Checklist.md) for the
+rest of the v0.1 review notes; the schematic/BOM value for R25 still needs a proper
+correction before the next revision.
+
 ## Component sorting tray
 
 A 150 x 150 x 10mm box-and-lid pair for sorting the BOM by hand before assembly, one
