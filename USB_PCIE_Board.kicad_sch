@@ -6537,7 +6537,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_Custom:UPD720201K8-711-BAC-A"
+		(symbol "0_Custom:UPD720201K8-701-BAC-A"
 			(pin_names
 				(offset 0.254)
 			)
@@ -6556,7 +6556,7 @@
 					)
 				)
 			)
-			(property "Value" "UPD720201K8-711-BAC-A"
+			(property "Value" "UPD720201K8-701-BAC-A"
 				(at 28.702 -167.64 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6578,7 +6578,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "UPD720201K8-711-BAC-A"
+			(property "Datasheet" "https://www.renesas.com/us/en/document/dst/upd720201upd720202-datasheet?r=1260536"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6656,7 +6656,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "UPD720201K8-711-BAC-A"
+			(property "ki_keywords" "UPD720201K8-701-BAC-A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6678,7 +6678,7 @@
 					)
 				)
 			)
-			(symbol "UPD720201K8-711-BAC-A_0_1"
+			(symbol "UPD720201K8-701-BAC-A_0_1"
 				(pin output line
 					(at 0 -40.64 0)
 					(length 7.62)
@@ -7904,7 +7904,7 @@
 					)
 				)
 			)
-			(symbol "UPD720201K8-711-BAC-A_1_1"
+			(symbol "UPD720201K8-701-BAC-A_1_1"
 				(rectangle
 					(start 7.62 0)
 					(end 142.24 -165.1)
@@ -26982,7 +26982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0_Custom:UPD720201K8-711-BAC-A")
+		(lib_id "0_Custom:UPD720201K8-701-BAC-A")
 		(at 229.87 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -27004,7 +27004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UPD720201K8-711-BAC-A"
+		(property "Value" "UPD720201K8-701-BAC-A"
 			(at 306.9433 335.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27015,7 +27015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Custom:QFN68_8X8_REN-M_Hand_Soldering"
+		(property "Footprint" "0_Custom:QFN68_8X8_REN-M"
 			(at 229.87 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -27027,7 +27027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "UPD720201K8-711-BAC-A"
+		(property "Datasheet" "https://www.renesas.com/us/en/document/dst/upd720201upd720202-datasheet?r=1260536"
 			(at 229.87 165.1 0)
 			(hide yes)
 			(show_name no)
