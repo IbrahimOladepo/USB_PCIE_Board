@@ -7,6 +7,7 @@ slot and breaks it out to four USB 3.0 Type-A ports.
 
 - [Overview](#overview)
 - [Board](#board)
+- [Design approach](#design-approach)
 - [First assembled board (v0.1)](#first-assembled-board-v01)
   - [The R25 bring-up bug and the through-hole fix](#the-r25-bring-up-bug-and-the-through-hole-fix)
   - [Running in a PC](#running-in-a-pc)
@@ -45,6 +46,16 @@ supply through an on-board regulation chain.
 | Top | Bottom |
 |---|---|
 | ![Top isometric render](3D/USB_PCIE_Board_Blender_Render_04.png) | ![Bottom isometric render](3D/USB_PCIE_Board_Blender_Render_05.png) |
+
+## Design approach
+
+- **All tracks were routed by hand.** No autorouter and no AI-generated routing was
+  used.
+- **The layer stackup was worked out by me**, following recommendations from
+  experts such as Rick Hartley.
+- **Claude (Anthropic's AI assistant) was used for repository version control and as
+  a second pair of eyes for checking nets for errors.** It did not route or place
+  anything. Layout and design decisions are my own.
 
 ## First assembled board (v0.1)
 
@@ -216,8 +227,11 @@ the new bus.
 - `USB_PCIE_BOARD_POWER.kicad_sch` — power supply schematic sheet
 - `Doc/` — documentation, including a PCB design review checklist and the component
   tray layout
+- `2D/` — board edge outline drawings (`.dxf` / `.ai`), and `2D/Photos/` with photos of
+  the assembled v0.1 board and its bring-up
 - `3D/` — Blender renders and STEP/pcb3d exports of the board; `3D/Assembly/` has the
   sorting tray's STL files and renders
+- `bom/` — interactive HTML BOM (`ibom.html`)
 - `production/` — generated fabrication outputs (gerbers, BOM, position files)
 
 ## Status
