@@ -11,7 +11,7 @@ controller, which bridges the PCIe link to four independent USB 3.0 ports.
 | Function | Reference(s) | Part |
 |---|---|---|
 | PCIe x1 edge connector | J1 | `Bus_PCI_Express_x1` |
-| USB host controller | U1 | Renesas `UPD720201K8-711-BAC-A` |
+| USB host controller | U1 | Renesas `UPD720201K8-701-BAC-A` |
 | Controller firmware/config flash | U2 | `MX25L4006EM1I-12G` (SPI NOR) |
 | Controller clock | X1 | 24MHz crystal |
 | USB 3.0 Type-A ports | J2–J5 | Molex `48406-0001` |
@@ -37,6 +37,8 @@ supply through an on-board regulation chain.
 |---|---|
 | ![Top view, assembled v0.1](2D/Photos/20260916_135817.jpg) | ![Bottom view, assembled v0.1](2D/Photos/20260916_135833.jpg) |
 
+### The R25 bring-up bug and the through-hole fix
+
 The first populated board brought up all rails cleanly except the 1.05V core rail
 (U5), which came up equal to its input voltage instead of regulating. Bring-up debug
 (solder-bridge check, continuity check, a U5 swap that didn't help) eventually traced
@@ -44,15 +46,47 @@ it to the feedback divider: **R25 had been sourced as a 133Ω part instead of th
 133kΩ the design called for**, a unit typo (Ω vs kΩ) that slipped through to the BOM
 and the order. With R24 (100kΩ, correct) on top and a 133Ω part on the bottom, the
 feedback node was pulled to nearly 0V, which made the regulator's control loop drive
-close to 100% duty cycle — output tracking input, exactly as observed.
+close to 100% duty cycle: output tracking input, exactly as observed.
 
-The through-hole resistors visible bodged onto the board in the top-view photo
-(bottom right, near L3/D14) are the quick fix: two resistor values already in this
-board's own BOM, stacked in series in place of the bad R25, to get back to
-~134.8kΩ (≈1.05V) without waiting on a new part order. See
-[`Doc/PCB_Design_Review_Checklist.md`](Doc/PCB_Design_Review_Checklist.md) for the
-rest of the v0.1 review notes; the schematic/BOM value for R25 still needs a proper
-correction before the next revision.
+The through-hole resistors visible in the top-view photo (bottom right, near L3/D14)
+are the quick fix: a **100kΩ + 33kΩ series pair (133kΩ total)** from parts already on
+hand, soldered in place of the bad R25 so the divider is back at its design value
+(1.05V output) without waiting on a new part order.
+
+### Running in a PC
+
+![v0.1 board running in a PC through a PCIe riser, with the R25 fix and riser annotated](2D/Photos/20260920_213102_Annotated_web.jpg)
+
+The board is plugged into the PC's PCIe slot through a **PCIe riser**, for two
+reasons: it makes the board easy to probe with a multimeter while powered, and the
+case has no room for the board's USB connector placement when seated directly in the
+slot. The annotated photo marks the R25 fix and the riser. The original,
+un-annotated photo is
+[`2D/Photos/20260920_213102.jpg`](2D/Photos/20260920_213102.jpg).
+
+A 1TB SSD connected to one of the board's USB ports, tested with CrystalDiskMark:
+
+![CrystalDiskMark results for a 1TB SSD on the board](2D/Photos/CrystalDiskMark_Results_SSD_1Tb_Storage.png)
+
+| Test | Read (MB/s) | Write (MB/s) |
+|---|---|---|
+| SEQ1M Q8T1 | 400.00 | 384.33 |
+| SEQ1M Q1T1 | 376.39 | 365.24 |
+| RND4K Q32T1 | 152.30 | 153.49 |
+| RND4K Q1T1 | 22.54 | 40.38 |
+
+### Known issues (to fix in the next revision)
+
+- **1.05V indicator LED (D11) cannot light.** D11 is a blue `SMLMN2BCTT86C` with a
+  forward voltage of about 2.9V, but it is wired across the 1.05V rail, so it can
+  never turn on. Note that swapping to a lower-Vf colour will not fix this on its own:
+  a red/yellow/green LED still needs roughly 1.8V or more. Options for v0.2: drive
+  the LED from +3V3 through a resistor and switch it with a small transistor sensed
+  from +1V05, or drop the LED and rely on the TP6/TP7 test points.
+- **R25 value.** Re-check the schematic/BOM value and the ordered part for R25 so they
+  match the intended 133kΩ before the next order.
+- See [`Doc/PCB_Design_Review_Checklist.md`](Doc/PCB_Design_Review_Checklist.md) for the
+  rest of the v0.1 review notes.
 
 ## Component sorting tray
 
