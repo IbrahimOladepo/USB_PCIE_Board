@@ -3,6 +3,21 @@
 A PCI Express x1 to USB 3.0 expansion card, designed in KiCad. Plugs into a PCIe x1
 slot and breaks it out to four USB 3.0 Type-A ports.
 
+## Contents
+
+- [Overview](#overview)
+- [Board](#board)
+- [First assembled board (v0.1)](#first-assembled-board-v01)
+  - [The R25 bring-up bug and the through-hole fix](#the-r25-bring-up-bug-and-the-through-hole-fix)
+  - [Running in a PC](#running-in-a-pc)
+  - [Known issues](#known-issues-to-fix-in-the-next-revision)
+- [Component sorting tray](#component-sorting-tray)
+- [OS / driver setup](#os--driver-setup)
+  - [Windows](#windows)
+  - [Linux](#linux)
+- [Repository layout](#repository-layout)
+- [Status](#status)
+
 ## Overview
 
 The design is built around **U1**, a Renesas `µPD720201` xHCI USB 3.0 host
